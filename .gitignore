@@ -1,0 +1,37 @@
+# Ignorar archivos y carpetas de compilación y debug generados por CMake y CLion
+cmake-build-debug/
+cmake-build-release/
+build/
+out/
+dist/
+
+# Ignorar ejecutables y objetos
+*.exe
+*.obj
+*.o
+
+# Ignorar archivos temporales y de logs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignorar archivos de caché de CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+rules.ninja
+
+# Ignorar archivos de entorno de CLion
+clion-*.txt
+
+# Ignorar carpetas de testing temporales
+Testing/
+
+# Ignorar carpetas y archivos de IDEs
+.idea/
+
+# Ignorar archivos generados por el sistema
+Thumbs.db
+.DS_Store
